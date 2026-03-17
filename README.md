@@ -39,7 +39,7 @@ A premium, responsive promotional website for **Fitness Sports Center**, a local
 
 ## Live Link
 
-*[Enter your live deployment URL here]*
+*[https://fitness-sports-center.vercel.app/](https://fitness-sports-center.vercel.app/)*
 
 ## Folder Structure
 
