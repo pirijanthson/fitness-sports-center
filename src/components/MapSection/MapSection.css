@@ -1,0 +1,48 @@
+.map-section {
+  padding-bottom: 6rem;
+}
+
+.map__wrapper {
+  overflow: hidden;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.map__info {
+  padding: 2rem 2.5rem;
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border);
+}
+
+.map__info h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.map__info p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.map__frame-container {
+  line-height: 0;
+}
+
+.map__frame-container iframe {
+  filter: grayscale(1) invert(0.9) contrast(1.2); /* Dark mode map styling */
+  transition: var(--transition);
+}
+
+.light .map__frame-container iframe {
+  filter: none;
+}
+
+@media (max-width: 768px) {
+  .map-section {
+    padding-bottom: 4rem;
+  }
+  .map__info {
+    padding: 1.5rem;
+  }
+}
