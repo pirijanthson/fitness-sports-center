@@ -197,3 +197,11 @@
   .hero__stats { gap: 1rem 1.5rem; }
   .hero__stat-value { font-size: 1.2rem; }
 }
+
+@media (max-width: 480px) {
+  .hero__headline { font-size: 2.8rem; margin-bottom: 1rem; }
+  .hero__desc { font-size: 0.95rem; margin-bottom: 1.5rem; }
+  .hero__actions { gap: 0.75rem; }
+  .hero__btn-main { padding: 0.85rem 1.8rem !important; font-size: 0.95rem !important; }
+  .hero { padding-top: 6rem; }
+}
