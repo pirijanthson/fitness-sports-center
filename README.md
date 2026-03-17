@@ -1,27 +1,28 @@
 # Fitness Sports Center
 
-A premium, responsive promotional website for **Fitness Sports Center**, a local fitness brand launching a new gym. This website showcases the gym's services, membership plans, elite trainers, and includes a validated contact form.
+A premium, responsive promotional website for **Fitness Sports Center**, a world-class training destination located in Colombo, Sri Lanka. This website showcases the gym's elite services, expert trainers, and utilizes modern web technologies to provide a high-performance, dynamic user experience.
 
-## Tech Stack
+## 🚀 Tech Stack
 
 - **React** (Vite)
+- **Framer Motion** (Premium Scroll & Loading Animations)
 - **React Hook Form** (Real-time Validation)
-- **CSS3** (Custom Design System with Dark/Light Mode)
-- **Framer Motion** (Scroll animations ready)
+- **CSS3** (Fluid Design System with Dark/Light Mode)
 - **Font Awesome** (Icons)
 - **Google Fonts** (Outfit & Bebas Neue)
 
-## Features
+## ✨ Features
 
-- **Fully Responsive**: Optimized for Mobile, Tablet, and Desktop.
-- **Dark/Light Mode**: User-toggleable theme with persistent styles.
-- **Fitness Quotes API**: Motivational quotes fetched from global APIs.
-- **Google Maps API**: Integrated gym location with custom dark/light filters.
-- **Search & Filter**: Find specific gym services or categories instantly.
-- **Advanced Contact Form**: Real-time validation with React Hook Form and actual email submission via EmailJS.
-- **Premium UI**: Modern aesthetics featuring glassmorphism, gold accents, and fluid animations.
+- **Premium Aesthetics**: Modern interface featuring glassmorphism, gold accents, and fluid transitions.
+- **Advanced Animations**: Staggered loading effects and scroll-reveal transitions using Framer Motion.
+- **Local Branding**: Specialized for the Sri Lankan market with a focus on Fitness Sports Center's Colombo 07 location.
+- **Fitness Quotes API**: Real-time motivational quotes fetched dynamically for daily inspiration.
+- **Google Maps Integration**: Custom-styled interactive map pinpointing the gy's residential location in Sri Lanka.
+- **Fast Navigation**: Optimized scroll-to-section navigation with a responsive sticky header.
+- **Dark/Light Mode**: Full theme support with automatic system detection and manual override.
+- **Interactive Forms**: Real-time validated contact form with professional success/error feedback.
 
-## Setup Instructions
+## 🛠️ Setup Instructions
 
 1. **Clone or Download** the project files.
 2. **Install Dependencies**:
@@ -37,29 +38,28 @@ A premium, responsive promotional website for **Fitness Sports Center**, a local
    npm run build
    ```
 
-## Live Link
+## 🌐 Live Link
 
 *[https://fitness-sports-center.vercel.app/](https://fitness-sports-center.vercel.app/)*
 
-## Folder Structure
+## 📂 Folder Structure
 
 ```text
 src/
-├── components/       # Reusable UI components
-│   ├── AboutSection/
-│   ├── ContactSection/
-│   ├── Footer/
-│   ├── HeroSection/
-│   ├── MembershipSection/
-│   ├── Navbar/
-│   ├── ScrollToTop/
-│   ├── ServicesSection/
-│   └── TrainersSection/
-├── App.jsx           # Root component & Theme management
-├── index.css         # Global Design System & Variables
-└── main.jsx          # Entry point
-public/
-└── assets/           # Images & Icons
+├── components/          # Reusable UI components
+│   ├── AboutSection/    # Detailed brand overview
+│   ├── ContactSection/  # Validated contact form
+│   ├── Footer/          # Navigation & Socials
+│   ├── HeroSection/     # Animated landing area
+│   ├── MapSection/      # Interactive Google Maps
+│   ├── Navbar/          # Theme & Nav controls
+│   ├── QuoteSection/    # Dynamic API Quotes
+│   ├── ServicesSection/ # Filterable service grid
+│   ├── TrainersSection/ # Elite coach profiles
+│   └── ScrollReveal.jsx # Framer Motion utility
+├── App.jsx              # Root component & Theme logic
+├── index.css            # Global Design System
+└── main.jsx             # Entry point
 ```
 
 ---
