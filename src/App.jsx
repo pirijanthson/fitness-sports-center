@@ -14,7 +14,7 @@ function App() {
   const [darkMode, setDarkMode] = useState(true)
 
   useEffect(() => {
-    document.body.className = darkMode ? 'dark' : 'light'
+    document.body.className = darkMode ? 'light' : 'dark'
   }, [darkMode])
 
   const toggleDark = () => setDarkMode(prev => !prev)
